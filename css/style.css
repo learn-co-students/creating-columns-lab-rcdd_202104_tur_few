@@ -21,6 +21,7 @@ h4 {
   display: inline-block;
   padding: 5px;
   margin: 20px 0 0 0;
+
 }
 
 img:hover {
@@ -44,6 +45,29 @@ img:hover {
   border: 1px solid #aa2222;
   box-shadow: -1px 1px #aa2222, -2px 2px #aa2222, -3px 3px #aa2222, -4px 4px #aa2222, -5px 5px #aa2222;
   background-color: #dd4444;
+}
+
+.column {
+width: 48%;
+display: inline-block;
+  display: inline; /* For IE7 */
+  zoom: 1; /* Trigger hasLayout */
+  width: 50%;
+  text-align: center;
+ }
+
+
+
+.large {
+  width: 100%;
+}
+
+.small {
+width: 40%;
+}
+
+.med {
+  width: 60%;
 }
 
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
